@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#title-text {
+  text-align: center;
+}
+
+#title-text h1 {
+  text-align: center;
+  color: white;
+  transition: 1s;
+}
+
+#title-text a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.mainbtn button {
+  top: 0;
+  left: 0;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: white;
+  text-transform: uppercase;
+  color: black;
+  font-family: arial;
+  letter-spacing: 1px;
+  box-shadow: -6px 6px 0 black;
+  text-decoration: none;
+  
+}
+
+
+.mainbtn button:hover {
+  background-color: #7D4A8D;
+  border-color: black;
+  transition: 0.3s;
+  padding: 13px 22px;
+}
+
+#sidenav {
+  top: 0;
+  left: 0;
+}
+
+#sideNav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background: black;
+  z-index: 2;
+  transition: 0.3s;
+}
+
+#sideNav a {
+  color: white;
+}
+
+#sideNav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#sideNav a {
+  text-align: left;
+  margin: 0;
+}
+
+
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#menubtn {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#menubtn img {
+  width: 20px;
+  margin-top: 15px;
+}
+
+#threetofive h1 {
+  margin-top: 10%;
+  text-align: center;
+  color: white;
+}
+
+
+.firstparagraph h4 {
+  margin: 5%;
+  text-align: center;
+  color: white;
+}
+
+
+#threetofivebudgets {
+  color: white;
+  text-align: center;
+}
+
+#threetofivebudgets a {
+  color: rgb(192, 192, 192);
+}
+
+#threetofivebudgets a:hover {
+  color: white;
+}
+
+#threetofivebudgets h3{
+  margin: 10%;
+}
+
+#secondtoptext {
+  color: white;
+  text-align: center;
+}
+
+#secondtoptext h1 {
+  margin-top: 15%;
+}
+
+.fiverecipeone h3 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.fiverecipeone {
+  color: white;
+  text-align: center;
+}
+
+.fiverecipeone a {
+  color: rgb(192, 192, 192);
+}
+
+.fiverecipeone a:hover {
+  color: white;
+}
+
+#eightoftwelve h1 {
+  color: white;
+  margin-top: 10%;
+  text-align: center;
+  
+}
+
+.eightp {
+  text-align: center;
+  color: white;
+}
+
+.eightp a {
+  color: rgb(192, 192, 192);
+}
+
+.eightp a:hover {
+  color: white;
+  
+}
+#preloader {
+background: #0000 url(file:///home/chronos/u-080e24297e60d1a82df42d3c980ddbcdb6c56e5f/MyFiles/Downloads/loader.gif) no-repeat center center;
+height: 100vh;
+width: 100%;
+position: fixed;
+z-index: 100;
+background-size: cover;
+}
